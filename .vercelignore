@@ -1,0 +1,8 @@
+/build.py
+/ph.py
+/lib.py
+/img_meta.py
+/c_*.py
+__pycache__
+/assets
+/img

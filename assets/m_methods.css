@@ -1,0 +1,28 @@
+/* Method Library (c_methods.py) */
+.ml-x{margin:28px 0}
+.ml-f{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:16px}.ml-f select{width:auto;min-height:44px}.ml-q{flex:1 1 300px}.ml-q input{min-height:48px;font-size:16px}
+.ml-mods{display:flex;flex-wrap:wrap;gap:6px}.ml-n{margin-left:auto;font:500 12.5px/1 var(--mono);color:var(--mut)}
+.ml-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.ml-c{display:flex;flex-direction:column;gap:6px;padding:18px;background:var(--card);border:1px solid var(--line);border-radius:20px;color:var(--tx);box-shadow:var(--sh);transition:transform .35s var(--ease),box-shadow .3s,border-color .3s}
+.ml-c:hover{text-decoration:none;border-color:var(--teal);transform:translateY(-3px);box-shadow:var(--sh2)}
+.ml-c small{font:600 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--teal-t)}.ml-c b{font:500 20px/1.2 var(--serif)}.ml-c span{font-size:14px;color:var(--mut);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.ml-c em{font-style:normal;font:500 12px/1.4 var(--mono);color:var(--mut)}.ml-c i{font-style:normal;font:600 12px/1 var(--mono);color:var(--teal-t);margin-top:auto}
+.ml-c.hide{display:none}.ml-c.pop{animation:mlp .45s var(--ease) both;animation-delay:calc(var(--k,0)*25ms)}@keyframes mlp{from{opacity:0;transform:translateY(10px) scale(.98)}}
+.ml-d{margin:24px 0 0;background:radial-gradient(120% 120% at 70% 20%,var(--ink3),var(--ink) 60%,#050d18);border-radius:24px;padding:16px}.ml-d svg{width:100%;height:auto;display:block;overflow:visible}
+.ml-d text{fill:#9fb3cb;font:500 11px var(--mono)}
+.ml-col{fill:rgba(255,255,255,.05);stroke:rgba(255,255,255,.3);stroke-width:1.5}.ml-base{stroke:rgba(255,255,255,.25);fill:none}.ml-thr{stroke:var(--amb);stroke-dasharray:5 5;fill:none}
+.ml-tr{fill:none;stroke:var(--teal);stroke-width:2.4;stroke-dasharray:1;stroke-dashoffset:1;filter:drop-shadow(0 0 5px rgba(0,184,169,.7))}
+.ml-d.in .ml-tr{animation:mldraw 2.6s var(--ease) forwards;animation-delay:var(--d,0s)}@keyframes mldraw{to{stroke-dashoffset:0}}
+.ml-band{fill:var(--c);opacity:.85;animation:mlband 4.2s ease-in-out infinite;animation-delay:var(--d)}@keyframes mlband{0%{transform:translateY(0)}100%{transform:translateY(170px);opacity:0}}
+.ml-ion{fill:#7fe7dc;animation:mlion 2s linear infinite;animation-delay:var(--d)}@keyframes mlion{0%{transform:translate(0,0);opacity:1}60%{transform:translate(110px,var(--y))}100%{transform:translate(220px,var(--y));opacity:0}}
+.ml-bar{fill:var(--teal);transform-box:fill-box;transform-origin:bottom;transform:scaleY(0)}.ml-d.in .ml-bar{animation:mlbar .8s var(--ease) forwards;animation-delay:var(--d)}@keyframes mlbar{to{transform:scaleY(1)}}
+.ml-beam{stroke:var(--amb);stroke-width:3;stroke-dasharray:8 6;animation:il-flow 1s linear infinite}
+.ml-p{fill:rgba(127,231,220,.35);stroke:var(--teal);animation:il-float 5s ease-in-out infinite;animation-delay:var(--d)}
+.ml-med{fill:rgba(0,184,169,.12)}.ml-shaft{stroke:#d7e3f1;stroke-width:3;fill:none}.ml-pad{transform-origin:120px 190px;animation:mlpad 1.2s linear infinite}@keyframes mlpad{50%{transform:scaleX(-1)}}
+.ml-tab{fill:var(--amb);animation:mltab 6s ease-in infinite}@keyframes mltab{to{opacity:0;transform:scale(.3);transform-origin:121px 206px}}
+.ml-col2{fill:var(--amb);opacity:0;transform-box:fill-box;transform-origin:center}.ml-d.in .ml-col2{animation:mlbloom 1s var(--ease) forwards;animation-delay:var(--d)}@keyframes mlbloom{from{opacity:0;transform:scale(0)}to{opacity:.85;transform:scale(1)}}
+.ml-well{fill:var(--teal);fill-opacity:.06;stroke:rgba(255,255,255,.2)}.ml-d.in .ml-well{animation:mlwell 1s ease forwards;animation-delay:var(--d)}@keyframes mlwell{to{fill-opacity:var(--o)}}
+.ml-cell{fill:rgba(0,184,169,.18);stroke:var(--teal);animation:il-pulse 3s ease-in-out infinite;animation-delay:var(--d);transform-box:fill-box;transform-origin:center}
+.ml-fill{fill:var(--teal);transform-box:fill-box;transform-origin:left;animation:mlfill 3s ease-in-out infinite alternate;animation-delay:var(--d)}@keyframes mlfill{from{transform:scaleX(.1)}to{transform:scaleX(1)}}
+.ml-svc{margin:28px 0}.ml-svc h3{font:500 24px/1.2 var(--serif)}
+@media(prefers-reduced-motion:reduce){.ml-d *{animation:none!important}.ml-tr{stroke-dashoffset:0}.ml-bar{transform:none}.ml-col2{opacity:.85}.ml-well{fill-opacity:var(--o)}.ml-c.pop{animation:none}}

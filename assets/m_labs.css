@@ -1,0 +1,24 @@
+/* labs module */
+.lb-ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:10px 0 16px}.lb-ctl>span{font:600 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mut);margin:0 4px 0 10px}.lb-ctl>span:first-child{margin-left:0}
+.lb-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:14px}
+.lb-card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;color:var(--tx);box-shadow:var(--sh);transition:transform .3s var(--ease),box-shadow .3s}
+.lb-card:hover{text-decoration:none;transform:translateY(-4px);box-shadow:var(--sh2)}.lb-card img{width:100%;height:160px;object-fit:cover}.lb-card>div{padding:16px 18px 18px;display:flex;flex-direction:column;gap:4px;flex:1}
+.lb-card h3{font:500 22px/1.2 var(--serif);margin:0}.lb-card p{margin:0;color:var(--mut);font-size:14.5px}.lb-card ul{margin:6px 0;padding-left:18px;font-size:13.5px}.lb-card small{color:var(--mut);margin-top:auto}
+.lb-card.hide{display:none}
+.lb-tour{position:relative;border-radius:24px;overflow:hidden;aspect-ratio:16/8;background:var(--ink)}
+.lb-tf{position:absolute;inset:0;margin:0;opacity:0;transition:opacity 1s}.lb-tf.on{opacity:1}.lb-tf img{width:100%;height:100%;object-fit:cover;transform:scale(1.06);transition:transform 4.2s linear}.lb-tf.on img{transform:scale(1)}
+.lb-tf figcaption{position:absolute;left:16px;bottom:22px;color:#fff;font-size:13px;background:rgba(6,17,31,.6);padding:6px 10px;border-radius:10px}
+.lb-tbar{position:absolute;left:0;right:0;bottom:0;height:4px;background:rgba(255,255,255,.15)}.lb-tbar i{display:block;height:100%;width:var(--p,0%);background:var(--teal)}
+.lb-tp{position:absolute;right:14px;top:14px;background:rgba(6,17,31,.6);color:#fff;border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:8px 14px;font:600 13px/1 var(--sans);cursor:pointer;min-height:38px}
+.lb-insts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+details.lb-inst{border-radius:20px;overflow:hidden;max-width:none;margin:0}.lb-inst summary{list-style:none;cursor:pointer;display:grid;gap:4px;padding:0 0 14px}.lb-inst summary::-webkit-details-marker{display:none}
+.lb-inst summary img{width:100%;height:150px;object-fit:cover}.lb-inst summary b,.lb-inst summary span{padding:0 16px}.lb-inst summary span{font:600 12px/1 var(--mono);color:var(--teal-t)}.lb-inst[open] summary span{opacity:.5}
+.lb-inst>p{padding:0 16px;margin:0 0 10px;font-size:14px;color:var(--mut)}.lb-cap{display:flex;gap:8px;align-items:center}.lb-cap b{font-family:var(--mono);color:var(--teal-t)}
+.lb-inst[open]>p{animation:morph .45s var(--ease)}
+.lb-certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin:10px 0 16px}
+.lb-cert{background:var(--card);border:1px dashed var(--line2);border-radius:18px;padding:16px;display:grid;gap:6px}.lb-cert b{font:500 20px/1.2 var(--serif)}.lb-cert span{font-size:14px;color:var(--mut)}.lb-cert small{font-family:var(--mono);font-size:12px;color:var(--mut)}
+.lb-route{width:100%;height:auto;background:radial-gradient(120% 120% at 60% 30%,var(--ink3),var(--ink));border-radius:20px}
+.lb-grid path{stroke:rgba(255,255,255,.06);fill:none}.lb-rt{fill:none;stroke:var(--teal);stroke-width:3;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;filter:drop-shadow(0 0 6px rgba(0,184,169,.7))}
+.lb-route.in .lb-rt{transition:stroke-dashoffset 2s .3s var(--ease);stroke-dashoffset:0}.lb-ap{fill:var(--amb)}.lb-lab{fill:var(--teal);stroke:#fff;stroke-width:2}.lb-route text{fill:#d7e3f1;font:600 12px var(--mono)}
+.lb-news{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}.lb-news a{display:grid;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px 16px;color:var(--tx)}.lb-news a:hover{border-color:var(--teal);text-decoration:none}.lb-news small{font-family:var(--mono);color:var(--teal-t)}
+@media(prefers-reduced-motion:reduce){.lb-tf img{transition:none;transform:none}.lb-rt{stroke-dashoffset:0}}

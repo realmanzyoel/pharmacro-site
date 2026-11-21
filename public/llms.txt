@@ -1,0 +1,143 @@
+# PharmaCRO
+
+> A planned network of GMP pharmaceutical analytical testing laboratories (pre-launch). Figures on this site are illustrative placeholders until verified.
+
+## Services
+- [Every test your product needs, from first batch to final release.](https://pharma.eliteleadgrow.com/services/index): Twelve services across the whole product lifecycle, one portal and one data standard. Search, filter, compare, or ask a scientist.
+- [Bundles](https://pharma.eliteleadgrow.com/services/bundles): Five packaged programmes, each with one plan, one timeline and one price.
+- [Compare services](https://pharma.eliteleadgrow.com/services/compare): All twelve services side by side: turnaround, sample need, regulatory coverage and lead labs.
+- [Small Molecule QC and Release](https://pharma.eliteleadgrow.com/services/small-molecule-qc-release): Compendial and custom release testing for tablets, capsules, liquids, injectables and APIs, from assay to nitrosamines.
+- [Stability Studies](https://pharma.eliteleadgrow.com/services/stability-studies): ICH stability programmes in every climatic zone, I to IVb, with pull testing, trending and shelf-life support.
+- [Method Development, Validation and Transfer](https://pharma.eliteleadgrow.com/services/method-development-validation): HPLC, UPLC, GC, LC-MS and dissolution methods developed with QbD, validated to ICH Q2(R2) and transferred between labs first time.
+- [Biologics Characterization and Release](https://pharma.eliteleadgrow.com/services/biologics-characterization-release): Characterisation, comparability and release testing for monoclonal antibodies, recombinant proteins and biosimilars.
+- [mRNA and Vaccine Testing](https://pharma.eliteleadgrow.com/services/mrna-vaccine-testing): Release and characterisation for mRNA therapeutics, LNP formulations and vaccines.
+- [Cell and Gene Therapy Testing](https://pharma.eliteleadgrow.com/services/cell-gene-therapy-testing): Release and characterisation for AAV and lentiviral vectors, CAR-T and other cell therapies, with rapid methods for fresh products.
+- [Microbiology and Sterility](https://pharma.eliteleadgrow.com/services/microbiology-sterility): Sterility, endotoxin, bioburden, mycoplasma and container closure testing to USP, Ph. Eur. and JP, with rapid methods when the clock matters
+- [Environmental Monitoring and Cleanrooms](https://pharma.eliteleadgrow.com/services/environmental-monitoring): Viable and non-viable monitoring, water and gas testing, and cleanroom classification, designed around your contamination control strategy.
+- [Extractables and Leachables](https://pharma.eliteleadgrow.com/services/extractables-leachables): Extractables studies, leachables on stability and packaging compatibility, designed from a risk assessment and reported to an analytical eva
+- [Bioanalytical and Immunogenicity](https://pharma.eliteleadgrow.com/services/bioanalytical-immunogenicity): LC-MS/MS and ligand-binding PK assays, tiered anti-drug antibody testing and neutralising antibody assays, validated to ICH M10.
+- [Reference Standards and Excipient Testing](https://pharma.eliteleadgrow.com/services/reference-standards-excipients): Compendial testing of excipients, APIs and reference standards to USP-NF, Ph. Eur., JP and IP, plus in-house standard qualification.
+- [Regulatory and Data Integrity Support](https://pharma.eliteleadgrow.com/services/regulatory-data-integrity-support): Mock inspections, ALCOA+ data integrity gap assessments, CTD Module 3 analytical sections and OOS investigation support, from people who hav
+
+## Solutions
+- [Discovery](https://pharma.eliteleadgrow.com/solutions/discovery): Fit-for-purpose methods and early characterisation. Discovery methods are fit for purpose, not validated. The aim is reliable enough data to
+- [Preclinical](https://pharma.eliteleadgrow.com/solutions/preclinical): GLP-aware characterisation and tox batch support. Preclinical methods are qualified: shown to be suitable for the tox batch, but not fully v
+- [Clinical (Phase 1 to 3)](https://pharma.eliteleadgrow.com/solutions/clinical-phase-1-3): Phase-appropriate validation, release and stability. Phase 1 methods: fit for purpose, not fully validated. Methods are validated to ICH Q2(
+- [Commercial release](https://pharma.eliteleadgrow.com/solutions/commercial-release): Validated, fast, routine batch release. Commercial release uses fully validated methods, registered specifications and strict change control
+- [Post-approval and stability](https://pharma.eliteleadgrow.com/solutions/post-approval-stability): Ongoing stability, changes and lifecycle management. Post-approval work follows the registered stability commitment and ICH Q12 lifecycle pr
+- [Testing for every stage, from first molecule to final batch.](https://pharma.eliteleadgrow.com/solutions/index): From discovery to post-approval stability: the testing each stage needs, and how much rigour is enough.
+
+## Industries
+- [Generics](https://pharma.eliteleadgrow.com/industries/generics): Tight margins and tight launch windows. Generic manufacturers need fast, cheap, defensible release testing and a clean answer on nitrosamine
+- [Biosimilars](https://pharma.eliteleadgrow.com/industries/biosimilars): Proving similarity to a moving reference product. Biosimilar developers must show their molecule is highly similar to a reference product th
+- [Biotech startups](https://pharma.eliteleadgrow.com/industries/biotech-startups): No internal lab, a small team and a board deadline. Early biotechs usually have no internal lab, a small team and a board deadline.
+- [Big pharma](https://pharma.eliteleadgrow.com/industries/big-pharma): Overflow capacity and global consistency. Large pharmaceutical companies use PharmaCRO for overflow capacity, regional release and specialis
+- [CDMOs](https://pharma.eliteleadgrow.com/industries/cdmos): Your clients' timelines become your timelines. CDMOs carry their clients' timelines.
+- [Vaccine makers](https://pharma.eliteleadgrow.com/industries/vaccine-makers): High stakes, high volume, no margin for error. Vaccine makers test high volumes under high stakes, often with cold-chain samples and short r
+- [API manufacturers](https://pharma.eliteleadgrow.com/industries/api-manufacturers): Impurity profiles every regulator will read. API manufacturers sell impurity profiles as much as molecules.
+- [Excipient and packaging suppliers](https://pharma.eliteleadgrow.com/industries/excipient-packaging-suppliers): Your customers' auditors are your auditors. Excipient and packaging suppliers are audited by every customer's QA.
+- [Built around how you make medicines.](https://pharma.eliteleadgrow.com/industries/index): Eight kinds of medicine makers, eight sets of pressures. See the package and tools built for yours.
+
+## Labs
+- [PharmaCRO Hyderabad](https://pharma.eliteleadgrow.com/labs/hyderabad): A planned India lab: flagship: small molecule qc, stability, nitrosamines.
+- [PharmaCRO Mumbai](https://pharma.eliteleadgrow.com/labs/mumbai): A planned India lab: small molecule qc, microbiology, export release.
+- [PharmaCRO Pune](https://pharma.eliteleadgrow.com/labs/pune): A planned India lab: vaccines and microbiology.
+- [PharmaCRO Bengaluru](https://pharma.eliteleadgrow.com/labs/bengaluru): A planned India lab: biologics and bioanalytical.
+- [PharmaCRO Singapore](https://pharma.eliteleadgrow.com/labs/singapore): A planned Southeast Asia lab: biologics and cell and gene therapy hub for asean.
+- [PharmaCRO Kuala Lumpur](https://pharma.eliteleadgrow.com/labs/kuala-lumpur): A planned Southeast Asia lab: small molecule qc and zone ivb stability.
+- [PharmaCRO Leiden](https://pharma.eliteleadgrow.com/labs/leiden): A planned Europe lab: eu release and biologics.
+- [PharmaCRO Cambridge](https://pharma.eliteleadgrow.com/labs/cambridge): A planned Europe lab: cell and gene therapy and bioanalytical.
+- [PharmaCRO Dublin](https://pharma.eliteleadgrow.com/labs/dublin): A planned Europe lab: eu qc release and microbiology.
+- [PharmaCRO New Jersey](https://pharma.eliteleadgrow.com/labs/new-jersey): A planned United States lab: us release, e&l and mrna.
+- [Ten labs. One standard.](https://pharma.eliteleadgrow.com/labs/index): A planned network of GMP testing labs across India, Southeast Asia, Europe and the United States, close to your plant and your regulator.
+- [Capabilities matrix](https://pharma.eliteleadgrow.com/labs/capabilities-matrix): Every planned lab against every service: centres of excellence, routine capability and work routed through the network.
+
+## Quality
+- [Inspection-ready, every day.](https://pharma.eliteleadgrow.com/quality/index): How we protect the integrity of every result, and how you can check.
+- [Accreditations](https://pharma.eliteleadgrow.com/quality/accreditations): Every certificate: scope, issuing body, number, expiry and a verification link, filterable by lab and standard.
+- [Data integrity (ALCOA+)](https://pharma.eliteleadgrow.com/quality/data-integrity): How our LIMS enforces each ALCOA+ principle, mapped to 21 CFR Part 11 and EU GMP Annex 11.
+- [Inspection history](https://pharma.eliteleadgrow.com/quality/inspection-history): Regulatory inspections in plain words: date, body, scope and outcome.
+- [Ethics and compliance](https://pharma.eliteleadgrow.com/quality/ethics-and-compliance): Code of conduct, anti-bribery, speak-up line, supplier code and conflicts policy.
+
+## Technology
+- [Your lab results. Live.](https://pharma.eliteleadgrow.com/technology/index): One portal across every lab. Track, review and download without sending an email.
+- [API and integrations](https://pharma.eliteleadgrow.com/technology/api-and-integrations): A REST API and webhooks that connect PharmaCRO results to your ERP, QMS and LIMS.
+
+## Method Library
+- [Method Library](https://pharma.eliteleadgrow.com/method-library/index): A public, searchable catalogue of 46 pharmaceutical test methods: purpose, principle, standards, sample, turnaround and instruments.
+- [HPLC assay and related substances](https://pharma.eliteleadgrow.com/method-library/hplc-assay-related-substances): Chromatography method to USP , Ph. Eur. 2.2.46, JP 2.01. Typical sample: typically 20 tablets or capsules, or 1 to 5 g of API. Indicative tu
+- [UHPLC impurity profiling](https://pharma.eliteleadgrow.com/method-library/uplc-impurity-profiling): Chromatography method to USP , Ph. Eur. 2.2.46, ICH Q3A(R2). Typical sample: 0.5 to 2 g of API or 10 dosage units. Indicative turnaround: 3 
+- [Dissolution testing](https://pharma.eliteleadgrow.com/method-library/dissolution-testing): Dissolution and performance method to USP , USP , USP . Typical sample: 12 to 24 units per batch (6 per stage). Indicative turnaround: 2 to 
+- [Content uniformity](https://pharma.eliteleadgrow.com/method-library/content-uniformity): Chromatography method to USP , Ph. Eur. 2.9.40, JP 6.02. Typical sample: 30 dosage units. Indicative turnaround: 2 to 5 business days.
+- [Residual solvents by headspace GC](https://pharma.eliteleadgrow.com/method-library/residual-solvents-gc-hs): Chromatography method to USP , Ph. Eur. 2.4.24, ICH Q3C. Typical sample: 1 to 2 g of API, excipient or product. Indicative turnaround: 3 to 
+- [Elemental impurities by ICP-MS](https://pharma.eliteleadgrow.com/method-library/elemental-impurities-icp-ms): Mass spectrometry method to USP , USP , ICH Q3D(R2). Typical sample: 1 to 5 g of drug product or API. Indicative turnaround: 4 to 8 business
+- [Nitrosamines and NDSRIs by LC-MS/MS](https://pharma.eliteleadgrow.com/method-library/nitrosamines-lc-ms-ms): Mass spectrometry method to ICH M7(R2), Ph. Eur. 2.5.42, USP . Typical sample: 1 to 5 g of API or product per batch. Indicative turnaround: 
+- [Mutagenic (genotoxic) impurities](https://pharma.eliteleadgrow.com/method-library/genotoxic-impurities): Mass spectrometry method to ICH M7(R2), ICH Q3A(R2), ICH Q2(R2). Typical sample: 1 to 5 g of API. Indicative turnaround: 2 to 4 weeks includ
+- [XRPD polymorph identification](https://pharma.eliteleadgrow.com/method-library/xrpd-polymorph): Physical and solid state method to USP , Ph. Eur. 2.9.33. Typical sample: 200 mg to 1 g of powder. Indicative turnaround: 3 to 5 business da
+- [Particle size by laser diffraction](https://pharma.eliteleadgrow.com/method-library/particle-size-laser-diffraction): Physical and solid state method to USP , Ph. Eur. 2.9.31, ISO 13320. Typical sample: 1 to 5 g of powder. Indicative turnaround: 2 to 4 busin
+- [Water content by Karl Fischer](https://pharma.eliteleadgrow.com/method-library/water-content-karl-fischer): Physical and solid state method to USP , Ph. Eur. 2.5.12, Ph. Eur. 2.5.32. Typical sample: 0.5 to 2 g. Indicative turnaround: 1 to 3 busines
+- [FTIR identification](https://pharma.eliteleadgrow.com/method-library/ftir-identification): Spectroscopy method to USP , USP , Ph. Eur. 2.2.24. Typical sample: 100 mg to 1 g. Indicative turnaround: 1 to 2 business days.
+- [Raman identification](https://pharma.eliteleadgrow.com/method-library/raman-identification): Spectroscopy method to USP , USP , Ph. Eur. 2.2.48. Typical sample: as received, in transparent packaging, or 100 mg. Indicative turnaround:
+- [ICH stability storage and testing](https://pharma.eliteleadgrow.com/method-library/ich-stability-storage): Stability method to ICH Q1A(R2), ICH Q1E, ICH Q5C. Typical sample: per protocol, from the pull schedule (often 30 to 200 units per condition
+- [Photostability (ICH Q1B)](https://pharma.eliteleadgrow.com/method-library/photostability-q1b): Stability method to ICH Q1B. Typical sample: enough for exposed, dark control and packaged arms (often 20 to 60 units). Indicative turnaroun
+- [Forced degradation studies](https://pharma.eliteleadgrow.com/method-library/forced-degradation): Stability method to ICH Q1A(R2), ICH Q1B, ICH Q2(R2). Typical sample: 1 to 5 g of API or product. Indicative turnaround: 2 to 4 weeks.
+- [SEC-HPLC for aggregates and fragments](https://pharma.eliteleadgrow.com/method-library/sec-hplc-aggregates): Chromatography method to USP , Ph. Eur. 2.2.30, ICH Q6B. Typical sample: 100 to 500 µg of protein. Indicative turnaround: 3 to 5 business da
+- [CE-SDS purity (reduced and non-reduced)](https://pharma.eliteleadgrow.com/method-library/ce-sds): Chromatography method to USP , Ph. Eur. 2.2.47, ICH Q6B. Typical sample: 50 to 200 µg of protein. Indicative turnaround: 3 to 5 business day
+- [icIEF charge variants](https://pharma.eliteleadgrow.com/method-library/icief-charge-variants): Chromatography method to Ph. Eur. 2.2.54, USP , ICH Q6B. Typical sample: 50 to 200 µg of protein. Indicative turnaround: 3 to 5 business day
+- [Peptide mapping by LC-MS](https://pharma.eliteleadgrow.com/method-library/peptide-mapping-lc-ms): Mass spectrometry method to USP , Ph. Eur. 2.2.55, ICH Q6B. Typical sample: 100 to 500 µg of protein. Indicative turnaround: 1 to 2 weeks.
+- [Intact and subunit mass analysis](https://pharma.eliteleadgrow.com/method-library/intact-mass-ms): Mass spectrometry method to ICH Q6B, Ph. Eur. 2.2.43. Typical sample: 20 to 100 µg of protein. Indicative turnaround: 3 to 7 business days.
+- [Released N-glycan profiling (HILIC)](https://pharma.eliteleadgrow.com/method-library/glycan-profiling-hilic): Chromatography method to USP , Ph. Eur. 2.2.59, ICH Q6B. Typical sample: 100 to 300 µg of protein. Indicative turnaround: 1 to 2 weeks.
+- [Cell-based potency bioassay](https://pharma.eliteleadgrow.com/method-library/cell-based-potency): Cell-based method to USP , USP , USP . Typical sample: 0.5 to 2 mg of product (assay dependent). Indicative turnaround: 2 to 4 weeks.
+- [Host cell protein ELISA](https://pharma.eliteleadgrow.com/method-library/hcp-elisa): Immunoassay method to USP , Ph. Eur. 2.6.34, ICH Q6B. Typical sample: 0.5 to 1 mL of in-process or drug substance sample. Indicative turnaro
+- [Residual host cell DNA by qPCR](https://pharma.eliteleadgrow.com/method-library/residual-dna-qpcr): Molecular biology method to USP , Ph. Eur. 2.6.35, WHO TRS 978 Annex 3. Typical sample: 0.5 to 1 mL. Indicative turnaround: 3 to 7 business 
+- [mRNA integrity by capillary electrophoresis](https://pharma.eliteleadgrow.com/method-library/mrna-integrity-ce): Molecular biology method to USP mRNA vaccine quality guidance, WHO mRNA vaccine guidelines, ICH Q6B (principles). Typical sample: 5 to 20 µg
+- [mRNA 5' capping efficiency by LC-MS](https://pharma.eliteleadgrow.com/method-library/mrna-capping-lc-ms): Mass spectrometry method to USP mRNA vaccine quality guidance, WHO mRNA vaccine guidelines, ICH Q6B (principles). Typical sample: 10 to 50 µ
+- [Poly(A) tail length and distribution](https://pharma.eliteleadgrow.com/method-library/poly-a-tail-length): Mass spectrometry method to USP mRNA vaccine quality guidance, WHO mRNA vaccine guidelines, ICH Q6B (principles). Typical sample: 10 to 50 µ
+- [Residual dsRNA](https://pharma.eliteleadgrow.com/method-library/dsrna-elisa): Immunoassay method to USP mRNA vaccine quality guidance, WHO mRNA vaccine guidelines, ICH Q6B (principles). Typical sample: 10 to 50 µg of R
+- [LNP size and polydispersity (DLS)](https://pharma.eliteleadgrow.com/method-library/lnp-size-pdi-dls): Physical and solid state method to ISO 22412, USP mRNA vaccine quality guidance. Typical sample: 50 to 200 µL of drug product. Indicative tu
+- [Encapsulation efficiency (RiboGreen)](https://pharma.eliteleadgrow.com/method-library/encapsulation-efficiency-ribogreen): Immunoassay method to USP mRNA vaccine quality guidance, WHO mRNA vaccine guidelines, ICH Q6B (principles). Typical sample: 50 to 200 µL of 
+- [Vector genome titre by ddPCR](https://pharma.eliteleadgrow.com/method-library/ddpcr-vector-titre): Molecular biology method to USP , Ph. Eur. 5.14. Typical sample: 50 to 200 µL. Indicative turnaround: 3 to 7 business days.
+- [AAV empty/full ratio by AUC](https://pharma.eliteleadgrow.com/method-library/aav-empty-full-auc): Physical and solid state method to USP , Ph. Eur. 5.14. Typical sample: 300 to 500 µL at 1E12 to 1E13 capsids per mL. Indicative turnaround:
+- [Flow cytometry identity and purity](https://pharma.eliteleadgrow.com/method-library/flow-cytometry-identity): Cell-based method to USP , Ph. Eur. 2.7.24. Typical sample: 1 to 2 mL or about 10^6 cells. Indicative turnaround: 1 to 2 business days (same
+- [Sterility test (membrane filtration)](https://pharma.eliteleadgrow.com/method-library/sterility-membrane-filtration): Microbiology method to USP , Ph. Eur. 2.6.1, JP 4.06. Typical sample: per compendial tables, typically 20 containers. Indicative turnaround:
+- [Bacterial endotoxins (LAL)](https://pharma.eliteleadgrow.com/method-library/bacterial-endotoxins-lal): Microbiology method to USP , Ph. Eur. 2.6.14, JP 4.01. Typical sample: 3 to 5 containers or 1 to 5 mL. Indicative turnaround: 1 to 3 busines
+- [Endotoxin by recombinant reagents (rFC)](https://pharma.eliteleadgrow.com/method-library/recombinant-factor-c): Microbiology method to Ph. Eur. 2.6.32, USP . Typical sample: 3 to 5 containers or 1 to 5 mL. Indicative turnaround: 1 to 3 business days.
+- [Mycoplasma by culture and NAT](https://pharma.eliteleadgrow.com/method-library/mycoplasma-nat): Molecular biology method to Ph. Eur. 2.6.7, USP , JP 18 G3. Typical sample: 10 mL of unfiltered harvest or 1 to 2 mL for NAT. Indicative tur
+- [Bioburden and microbial limits](https://pharma.eliteleadgrow.com/method-library/bioburden): Microbiology method to USP , USP , Ph. Eur. 2.6.12. Typical sample: 10 to 30 g or mL. Indicative turnaround: 5 to 8 business days.
+- [Container closure integrity](https://pharma.eliteleadgrow.com/method-library/container-closure-integrity): Physical and solid state method to USP , USP , USP . Typical sample: 30 to 100 units plus positive controls. Indicative turnaround: 1 to 3 w
+- [Water testing: TOC and conductivity](https://pharma.eliteleadgrow.com/method-library/toc-conductivity-water): Spectroscopy method to USP , USP , Ph. Eur. 2.2.44. Typical sample: 250 to 500 mL per point in clean containers. Indicative turnaround: 1 to
+- [Extractables study (GC-MS, LC-MS, ICP-MS)](https://pharma.eliteleadgrow.com/method-library/extractables-gc-ms): Mass spectrometry method to USP , USP , USP . Typical sample: components or packaging units as agreed in the protocol. Indicative turnaround
+- [Leachables on stability](https://pharma.eliteleadgrow.com/method-library/leachables-lc-ms): Mass spectrometry method to USP , ICH Q3E (draft). Typical sample: stability samples per protocol. Indicative turnaround: method set-up 4 to
+- [LC-MS/MS pharmacokinetic assay](https://pharma.eliteleadgrow.com/method-library/lc-ms-ms-pk-assay): Mass spectrometry method to ICH M10. Typical sample: 50 to 250 µL of plasma per sample. Indicative turnaround: validation 3 to 6 weeks; samp
+- [Anti-drug antibody (ADA) bridging assay](https://pharma.eliteleadgrow.com/method-library/ada-bridging-assay): Immunoassay method to FDA immunogenicity testing guidance (2019), EMA immunogenicity guideline, USP . Typical sample: 100 to 200 µL of serum
+- [Neutralising antibody (NAb) assay](https://pharma.eliteleadgrow.com/method-library/nab-cell-based-assay): Cell-based method to FDA immunogenicity testing guidance (2019), USP . Typical sample: 100 to 200 µL of serum per sample. Indicative turnaro
+
+## Insights
+- [Nitrosamine testing in 2027: what regulators now expect](https://pharma.eliteleadgrow.com/insights/nitrosamine-testing-2027): Acceptable intakes, NDSRIs, confirmatory testing and the method sensitivity regulators now assume. A practical guide for QC and regulatory t
+- [Stability zones explained: Zone IVb for India and ASEAN launches](https://pharma.eliteleadgrow.com/insights/stability-zone-ivb): What the ICH climatic zones are, why Zone IVb is the hardest, and how to design a stability programme that supports launches across India an
+- [mRNA critical quality attributes: the complete guide](https://pharma.eliteleadgrow.com/insights/mrna-critical-quality-attributes): Identity, integrity, capping, poly(A), dsRNA, residual DNA and LNP attributes: what each one tells you, how it is measured and why it matter
+- [How to avoid method transfer failure](https://pharma.eliteleadgrow.com/insights/method-transfer-failure): Why analytical method transfers fail, how to design one that passes first time, and the documents that make it boring in a good way.
+- [Biosimilar analytical similarity: what FDA and EMA look for](https://pharma.eliteleadgrow.com/insights/biosimilar-analytical-similarity): How regulators assess analytical similarity, how to tier quality attributes, how many reference lots you need and how to present the data.
+- [Data integrity: the 10 findings inspectors see most](https://pharma.eliteleadgrow.com/insights/data-integrity-top-10-findings): The data integrity observations that keep appearing in FDA warning letters and EU GMP inspections, and the controls that prevent them.
+- [Endotoxin testing: LAL versus recombinant reagents](https://pharma.eliteleadgrow.com/insights/endotoxin-lal-vs-recombinant): How the bacterial endotoxins test works, how LAL compares with recombinant factor C and cascade reagents, and how to validate a switch.
+- [Choosing a testing partner: a procurement scorecard](https://pharma.eliteleadgrow.com/insights/choosing-a-testing-partner): A weighted scorecard for comparing contract testing labs on quality, capability, turnaround, cost and risk, with the questions to ask at aud
+- [Cell and gene therapy release testing explained](https://pharma.eliteleadgrow.com/insights/cgt-release-testing): Safety, identity, purity, potency and the clock: what release testing looks like for AAV, lentiviral and CAR-T products, and why timing chan
+- [Extractables and leachables for prefilled syringes](https://pharma.eliteleadgrow.com/insights/el-prefilled-syringes): How to design an E&L programme for biologics in prefilled syringes: materials, extraction conditions, analytical thresholds and leachables o
+- [The real cost of a delayed batch](https://pharma.eliteleadgrow.com/insights/cost-of-a-delayed-batch): What a day of testing delay costs a manufacturer, how to calculate it, and how to use it in vendor decisions and turnaround negotiations.
+- [State of Pharma Testing 2027: survey design and what we will publish](https://pharma.eliteleadgrow.com/insights/state-of-pharma-testing-2027): How our annual survey of QC, QA and procurement leaders will work, the questions we will ask, how we will protect respondents and when resul
+- [Insights](https://pharma.eliteleadgrow.com/insights/index): Weekly articles by our scientists on regulation, methods, biologics, mRNA, quality and the testing market. Answer-first, referenced, written
+
+## Tools
+- [Test Finder](https://pharma.eliteleadgrow.com/tools/test-finder): The Test Finder asks four questions (what you are making, its stage, your main market and what you need to know) and returns the services, k
+- [Instant Quote Estimator](https://pharma.eliteleadgrow.com/tools/quote-estimator): The Instant Quote Estimator gives an indicative price band and turnaround for the tests and quantities you choose, at Standard, Priority or 
+- [Turnaround Calculator](https://pharma.eliteleadgrow.com/tools/turnaround-calculator): The Turnaround Calculator shows the date your results arrive for each tier, counting business days from your ship date, the shipping lane an
+- [Stability Study Designer](https://pharma.eliteleadgrow.com/tools/stability-study-designer): The Stability Study Designer turns your market, storage, packaging and shelf life into an ICH Q1A(R2) study: conditions, pull points, total 
+- [Nitrosamine Risk Assessor](https://pharma.eliteleadgrow.com/tools/nitrosamine-risk-assessor): The Nitrosamine Risk Assessor walks through the risk factors regulators ask about (amines, nitrosating agents, solvents, excipients and pack
+- [Endotoxin Limit Calculator](https://pharma.eliteleadgrow.com/tools/endotoxin-limit-calculator): The Endotoxin Limit Calculator gives the bacterial endotoxin limit for your product (K/M, USP  and Ph.
+- [Inspection Readiness Score](https://pharma.eliteleadgrow.com/tools/inspection-readiness-score): The Inspection Readiness Score is a 20-question self-assessment across data integrity, documentation, training, CAPA, equipment and OOS hand
+- [Lab Locator and Shipping Planner](https://pharma.eliteleadgrow.com/tools/lab-locator-shipping-planner): The Lab Locator and Shipping Planner finds the nearest planned PharmaCRO labs to your site, estimates transit time and shows courier options
+- [Method Search and Compare](https://pharma.eliteleadgrow.com/tools/method-search-compare): Method Search and Compare finds any method in our library by name, technique, standard or modality and puts two methods side by side: purpos
+- [Regulatory Impact Checker](https://pharma.eliteleadgrow.com/tools/regulatory-impact-checker): The Regulatory Impact Checker lists the guidance that shapes testing for your product type in your market, with one line on what each means 
+- [Cost of Delay Calculator](https://pharma.eliteleadgrow.com/tools/cost-of-delay-calculator): The Cost of Delay Calculator shows what each day a batch waits for test results costs you, and what a shorter turnaround saves a year, as a 
+- [Ask the Lab](https://pharma.eliteleadgrow.com/tools/ask-the-lab): Ask the Lab answers questions such as 'can you test X' from the pages on this site, shows the source for every answer and hands a pre-filled
+- [Tools and calculators](https://pharma.eliteleadgrow.com/tools/index): Plan, estimate and check your testing in seconds. Free, private, and every result can go straight to a scientist.
