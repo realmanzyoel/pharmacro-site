@@ -2,3 +2,4 @@ __pycache__/
 public_c_*/
 .vercel
 .DS_Store
+.env*

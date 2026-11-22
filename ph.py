@@ -660,6 +660,31 @@ def relativize(h, depth):
 ORG = {"@context": "https://schema.org", "@type": "Organization", "name": BRAND, "url": DOMAIN, "description": "A planned network of GMP pharmaceutical analytical testing laboratories.",
        "parentOrganization": {"@type": "Organization", "name": "Investor Labs", "url": "https://investorlabs.eliteleadgrow.com"}, "email": MAIL}
 
+# ---------- photo band: pages with few images get an Investor Labs style mosaic ----------
+MOSPOOL = [("inst-hplc", "Chromatography", "HPLC, UPLC and GC", "/method-library/index.html"), ("inst-lcms", "Mass spectrometry", "LC-MS/MS and HRMS", "/services/index.html"),
+           ("lab-microscope-woman", "Microscopy", "Identity, particles, morphology", "/services/index.html"), ("vax-vials", "Vaccines and mRNA", "Release and stability", "/industries/index.html"),
+           ("lab-cleanroom-suit", "Cleanroom", "Grade A to D discipline", "/quality/index.html"), ("bio-cells-pink", "Cell culture", "Potency and cell-based assays", "/industries/index.html"),
+           ("lab-pipette-blue", "Bench work", "Precise, documented, reviewed", "/quality/data-integrity.html"), ("pharma-pills-mix", "Oral solids", "Generics and formulations", "/industries/index.html"),
+           ("log-plane", "Cold chain", "Samples that arrive intact", "/submit-samples.html"), ("data-dash", "Live data", "Watch every sample in the portal", "/technology/index.html"),
+           ("lab-team-three", "Our scientists", "Named, qualified, reachable", "/about/leadership.html"), ("inst-icp", "Elemental analysis", "ICP-MS to ICH Q3D", "/method-library/index.html"),
+           ("micro-petri-2", "Microbiology", "Sterility and bioburden", "/services/index.html"), ("room-clean-1", "Controlled rooms", "Environmental monitoring", "/quality/index.html"),
+           ("inst-dissolution", "Dissolution", "Profiles that predict performance", "/method-library/dissolution-testing.html"), ("lab-glassware", "Wet chemistry", "Classical methods, modern rigour", "/method-library/index.html"),
+           ("city-singapore", "Singapore", "A planned APAC hub", "/labs/index.html"), ("city-hyderabad", "Hyderabad", "India's pharma capital", "/labs/index.html"),
+           ("lab-automation", "Automation", "Robotics where it reduces error", "/technology/index.html"), ("bio-dna", "Molecular biology", "qPCR, ddPCR and sequencing", "/industries/index.html"),
+           ("pharma-capsules", "Capsules", "Content uniformity and dissolution", "/industries/index.html"), ("lab-sample-rack", "Sample management", "Chain of custody from dock to CoA", "/submit-samples.html"),
+           ("sec-servers", "Secure by design", "Encrypted, audited, backed up", "/technology/index.html"), ("pharma-scopes", "Optics", "Particles and polymorphs", "/services/index.html")]
+
+def MOSBAND(path, hero_img, n=4):
+    n = 8 if n == 8 else 4
+    k = sum(ord(c) * (i + 3) for i, c in enumerate(path)) % len(MOSPOOL)
+    out, i = [], 0
+    while len(out) < n and i < len(MOSPOOL):
+        im, t, d, u = MOSPOOL[(k + i * 5) % len(MOSPOOL)]; i += 1
+        if im == hero_img or any(o[0] == im for o in out): continue
+        out.append((im, t, d, u))
+    tiles = "".join(f'<a href="{u}" class="reveal" style="--i:{j}"><img src="/img/{im}.jpg" alt="{ALT.get(im, t)}" loading="lazy"><span><b>{t}</b>{d}</span></a>' for j, (im, t, d, u) in enumerate(out))
+    return f'<section class="mosband"><div class="mos">{tiles}</div></section>'
+
 def render(path, d, v):
     depth = path.count("/")
     title = d["title"]
@@ -676,7 +701,8 @@ def render(path, d, v):
         top = (f'<header class="cine pc" style="--bg:url(/img/{d["img"] or "lab-corridor"}.jpg)"><div class="cb"></div><div class="sp"></div>{hc}'
                f'<div class="cw">{crumbs}<p class="ey">{d["eyebrow"] or BRAND}</p>{WORDS(title)}<p class="lede">{d["lede"]}</p>' + (f'<div class="hb">{hb}</div>' if hb else "") + '</div></header>')
     cta = "" if d["cta"] is False else CTA(*(d["cta"] or ()))
-    body = header(path, cur) + top + f'<main id="main"{"" if d["hero"] == "bare" and path == "index" else " class=w"}>{d["body"]}</main>' + (f'<div class="w">{cta}</div>' if cta else "") + footer() + floaters()
+    band = MOSBAND(path, d["img"], 8 if d["body"].count("<img") < 3 else 4) if (d["hero"] != "bare" and path not in ("404", "maintenance", "search", "portal/login") and d["body"].count("<img") < 5) else ""
+    body = header(path, cur) + top + f'<main id="main"{"" if d["hero"] == "bare" and path == "index" else " class=w"}>{d["body"]}{band}</main>' + (f'<div class="w">{cta}</div>' if cta else "") + footer() + floaters()
     desc = html.escape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", d["desc"] or d["lede"] or title)).strip())[:300]
     t = html.escape(re.sub("<[^>]+>", "", title))
     full_t = f"{BRAND}: {TAG}" if path == "index" else f"{t} | {BRAND}"
@@ -691,7 +717,7 @@ def render(path, d, v):
     full = (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<title>{full_t}</title><meta name="description" content="{desc}"><link rel="canonical" href="{url}">'
             f'<meta property="og:title" content="{t}"><meta property="og:description" content="{desc}"><meta property="og:type" content="website"><meta property="og:url" content="{url}"><meta property="og:image" content="{og}"><meta name="twitter:card" content="summary_large_image">'
-            f'<meta name="theme-color" content="#0B1F3A"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230B1F3A%22/%3E%3Cpath d=%22M4 24h6l3-6 3-11 3 15 2-6h7%22 fill=%22none%22 stroke=%22%2300B8A9%22 stroke-width=%222.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3C/svg%3E">'
+            f'<meta name="theme-color" content="#ffffff"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22%3E%3Crect width=%2232%22 height=%2232%22 rx=%228%22 fill=%22%230B1F3A%22/%3E%3Cpath d=%22M4 24h6l3-6 3-11 3 15 2-6h7%22 fill=%22none%22 stroke=%22%2300B8A9%22 stroke-width=%222.6%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3C/svg%3E">'
             f'{FONT}<link rel="stylesheet" href="/assets/site.css?v={v}">{ld}'
             '<script>document.documentElement.classList.add("js");try{var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("pc-theme");if(t)document.documentElement.dataset.theme=t;var r=localStorage.getItem("pc-region");if(r)document.documentElement.dataset.region=r}catch(e){}</script></head>'
             f'<body class="pc p-{path.replace("/", "-")}" data-root="{"../" * depth}">{body}'

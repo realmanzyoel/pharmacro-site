@@ -15,7 +15,7 @@ def main():
         else: print("skip (missing):", m)
     if os.path.exists(OUT): shutil.rmtree(OUT)
     os.makedirs(os.path.join(OUT, "assets"))
-    css = "".join(open(os.path.join(ROOT, "assets", f)).read() for f in ("il.css", "ph.css")) + "".join(open(f).read() for f in sorted(glob.glob(os.path.join(ROOT, "assets", "m_*.css"))))
+    css = "".join(open(os.path.join(ROOT, "assets", f)).read() for f in ("il.css", "ph.css")) + "".join(open(f).read() for f in sorted(glob.glob(os.path.join(ROOT, "assets", "m_*.css")))) + open(os.path.join(ROOT, "assets", "ph-il.css")).read()
     js = open(os.path.join(ROOT, "assets", "il.js")).read() + "\n" + open(os.path.join(ROOT, "assets", "ph.js")).read() + "".join("\n" + open(f).read() for f in sorted(glob.glob(os.path.join(ROOT, "assets", "m_*.js"))))
     v = hashlib.md5((css + js).encode()).hexdigest()[:8]
     open(os.path.join(OUT, "assets", "site.css"), "w").write(css)

@@ -87,7 +87,22 @@ IMG_ALT = {
  "city-hyderabad": "A minaret of the Charminar, Hyderabad",
  "city-hyderabad2": "A modern office building in Hyderabad",
  "city-pune": "The Pune skyline under a hazy sky",
- "city-newjersey": "A university science building in Princeton, New Jersey"
+ "city-newjersey": "A university science building in Princeton, New Jersey",
+ "bio-ampoules-1": "A tray of glass ampoules on a yellow background",
+ "bio-ampoules-2": "Clear glass ampoules in a plastic tray on yellow",
+ "inst-centrifuge-1": "The rotor of a laboratory centrifuge seen from above",
+ "inst-centrifuge-2": "An open benchtop laboratory centrifuge with sample buckets",
+ "micro-colony-hand": "A scientist in safety glasses holding up an agar plate of bacterial colonies",
+ "micro-colony-eye": "A scientist examining colonies on an agar plate",
+ "micro-agar-stack": "Stacks of agar plates in different colours",
+ "lab-gloved-vials": "A gloved hand placing amber vials into a sample tray",
+ "lab-review-screen": "Two scientists reviewing results on a computer screen in a laboratory",
+ "lab-hood-woman": "A scientist working inside a laminar flow cabinet",
+ "inst-freeze-dryer": "A laboratory freeze dryer on a bench",
+ "inst-thermal-cyclers": "Two thermal cyclers side by side on a bench",
+ "inst-qpcr": "A real-time PCR instrument showing a DNA graphic on its screen",
+ "pharma-tablet-press": "Tablets being formed in a rotary tablet press",
+ "lab-gel-rig": "A gel electrophoresis rig connected to a power supply on a bench"
 }
 CREDITS = [
  [
@@ -705,6 +720,243 @@ CREDITS = [
   "CC BY-SA 4.0",
   "https://commons.wikimedia.org/wiki/File:Jadwin_Hall_At_Princeton_University_2024_011.jpg",
   "File:Jadwin Hall At Princeton University 2024 011.jpg"
+ ],
+ [
+  "lead-1",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "lead-2",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "lead-3",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "lead-4",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "lead-5",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "pharma-lab",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "pharma-pipette",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "pharma-chalk",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "pharma-team",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "pharma-plate",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "pharma-scopes",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "pharma-scope",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "pharma-duo",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "pharma-tubes",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "data-laptop",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "data-dash",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "data-charts",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "group-team",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "corp-skyline",
+  "Unsplash",
+  "Unsplash Licence",
+  "https://unsplash.com/",
+  ""
+ ],
+ [
+  "bio-ampoules-1",
+  "Wesalius",
+  "CC BY 4.0",
+  "https://commons.wikimedia.org/wiki/File:Degan_10mg_vials_yellow_background.jpg",
+  "File:Degan 10mg vials yellow background.jpg"
+ ],
+ [
+  "bio-ampoules-2",
+  "Wesalius",
+  "CC BY 4.0",
+  "https://commons.wikimedia.org/wiki/File:Tiapridal_vials_100mg-2ml_yellow_background.jpg",
+  "File:Tiapridal vials 100mg-2ml yellow background.jpg"
+ ],
+ [
+  "inst-centrifuge-1",
+  "Karbohut",
+  "CC BY-SA 4.0",
+  "https://commons.wikimedia.org/wiki/File:Rotor_for_microtubes_of_an_Eppendorf_Centrifuge_5430.jpg",
+  "File:Rotor for microtubes of an Eppendorf Centrifuge 5430.jpg"
+ ],
+ [
+  "inst-centrifuge-2",
+  "real name: Nadina Wiórkiewicz\npl.wiki: Nadine90\ncommons: Nadine90",
+  "CC BY-SA 3.0",
+  "https://commons.wikimedia.org/wiki/File:Heraeus_Multifuge_3SR_centrifuge_3.jpg",
+  "File:Heraeus Multifuge 3SR centrifuge 3.jpg"
+ ],
+ [
+  "micro-colony-hand",
+  "David McClenaghan, CSIRO",
+  "CC BY 3.0",
+  "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3567_Examining_an_agar_dish_for_bacterial_colonies_as_part_of_the_bioremediation_project.jpg",
+  "File:CSIRO ScienceImage 3567 Examining an agar dish for bacterial colonies as part of the bioremediation project.jpg"
+ ],
+ [
+  "micro-colony-eye",
+  "David McClenaghan, CSIRO",
+  "CC BY 3.0",
+  "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3619_Examining_an_agar_dish_for_bacterial_colonies_as_part_of_the_bioremediation_project.jpg",
+  "File:CSIRO ScienceImage 3619 Examining an agar dish for bacterial colonies as part of the bioremediation project.jpg"
+ ],
+ [
+  "micro-agar-stack",
+  "Ajay Kumar Chaurasiya",
+  "CC BY-SA 4.0",
+  "https://commons.wikimedia.org/wiki/File:MHA_and_MacConkey_agar_plates_stacks.jpg",
+  "File:MHA and MacConkey agar plates stacks.jpg"
+ ],
+ [
+  "lab-gloved-vials",
+  "EC - JRC, Kathleen James, Ismael López Luque, EK - JRC, CE - JRC",
+  "CC BY 4.0",
+  "https://commons.wikimedia.org/wiki/File:Water_Laboratory_at_the_Joint_Research_Centre,_Ispra_(P-070349-00-17).jpg",
+  "File:Water Laboratory at the Joint Research Centre, Ispra (P-070349-00-17).jpg"
+ ],
+ [
+  "lab-review-screen",
+  "EC - JRC, Kathleen James, Ismael López Luque, EK - JRC, CE - JRC",
+  "CC BY 4.0",
+  "https://commons.wikimedia.org/wiki/File:Water_Laboratory_at_the_Joint_Research_Centre,_Ispra_(P-070349-00-20).jpg",
+  "File:Water Laboratory at the Joint Research Centre, Ispra (P-070349-00-20).jpg"
+ ],
+ [
+  "lab-hood-woman",
+  "Sunmosk",
+  "CC BY 4.0",
+  "https://commons.wikimedia.org/wiki/File:Working_inside_the_laminar_flow_cabinet.jpg",
+  "File:Working inside the laminar flow cabinet.jpg"
+ ],
+ [
+  "inst-freeze-dryer",
+  "real name: Matylda Sęk\npl.wiki: Cygaretka\ncommons: Cygaretka",
+  "CC BY-SA 3.0",
+  "https://commons.wikimedia.org/wiki/File:Benchtop_freeze-drier.jpg",
+  "File:Benchtop freeze-drier.jpg"
+ ],
+ [
+  "inst-thermal-cyclers",
+  "GFJ",
+  "CC BY-SA 4.0",
+  "https://commons.wikimedia.org/wiki/File:Eppendorf_Mastercycler_Pro_S.jpg",
+  "File:Eppendorf Mastercycler Pro S.jpg"
+ ],
+ [
+  "inst-qpcr",
+  "U.S. Fish and Wildlife Service - Midwest Region",
+  "Public domain",
+  "https://commons.wikimedia.org/wiki/File:Whitney_Genetics_Lab_PCR_Machine_(22495358393).jpg",
+  "File:Whitney Genetics Lab PCR Machine (22495358393).jpg"
+ ],
+ [
+  "pharma-tablet-press",
+  "Robin Müller",
+  "CC BY-SA 3.0",
+  "https://commons.wikimedia.org/wiki/File:Rundl%C3%A4uferpresse_an_der_Uni_T%C3%BCbingen,_in_Betrieb_04.jpg",
+  "File:Rundläuferpresse an der Uni Tübingen, in Betrieb 04.jpg"
+ ],
+ [
+  "lab-gel-rig",
+  "Jean-Etienne Poirrier",
+  "CC BY-SA 2.0",
+  "https://commons.wikimedia.org/wiki/File:Electrophoresis_1D_running.jpg",
+  "File:Electrophoresis 1D running.jpg"
  ]
 ]
-CREDITS += [['lead-1', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['lead-2', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['lead-3', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['lead-4', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['lead-5', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['pharma-lab', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['pharma-pipette', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['pharma-chalk', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['pharma-team', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['pharma-plate', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['pharma-scopes', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['pharma-scope', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['pharma-duo', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['pharma-tubes', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['data-laptop', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['data-dash', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['data-charts', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['group-team', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', ''], ['corp-skyline', 'Unsplash', 'Unsplash Licence', 'https://unsplash.com/', '']]

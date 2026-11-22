@@ -5,16 +5,22 @@ CHROM = ('<svg class="chrom" viewBox="0 0 300 120" preserveAspectRatio="none" ar
          '<path class="c1" pathLength="1" d="M0 108H40c8 0 9-2 12-10l6-40c2-10 5-10 7 0l6 40c3 8 4 10 12 10H120c6 0 7-1 9-6l4-22c1-6 3-6 4 0l4 22c2 5 3 6 9 6H190c8 0 9-3 12-14l7-72c2-12 5-12 7 0l7 72c3 11 4 14 12 14H300"/>'
          '<text x="57" y="50">API</text><text x="128" y="78">Imp. A</text><text x="200" y="22">Main</text></svg>')
 
-HERO = (f'<section class="hero3"><canvas aria-hidden="true"></canvas><div class="w"><div>'
-        f'<p class="ey" style="color:#7ff3e7!important">Pharmaceutical analytical testing network</p>'
-        f'{WORDS("Every batch. Every standard. Every market.")}'
-        f'<p class="lede">One accredited network of pharmaceutical testing labs. Faster results, inspection-ready data, one portal.</p>'
-        f'<div class="hb"><a class="btn big mag" href="/request-quote.html"><span>Get a quote in 90 seconds</span></a> <a class="btn o big" href="/tools/test-finder.html">Find the right test</a></div>'
-        f'<p class="tick2"><span>Samples released today: <b data-tick="1284">1,284</b></span><span>Average TAT this week: <b>4.2 days</b></span>{ILL("Demo ticker")}</p></div>'
-        f'<div class="hcard" aria-hidden="true"><h3>Batch B2291 &middot; Assay and related substances <small>LIVE DEMO</small></h3>{CHROM}'
-        f'<div class="row"><span>System suitability</span><b class="ok">Passed</b></div><div class="row"><span>Assay</span><b>99.2% LC</b></div>'
-        f'<div class="row"><span>Largest unknown impurity</span><b>0.06%</b></div><div class="row"><span>Status</span><b class="ok">Under QA review</b></div></div></div>'
-        f'<button class="hpause" type="button" aria-pressed="false">Pause motion</button><span class="scroll-h" aria-hidden="true"></span></section>')
+SLIDES = ["pharma-lab", "inst-lcms", "lab-microscope-woman", "vax-vials", "lab-cleanroom-suit", "city-singapore-night"]
+HERO = ('<header class="cine big">' + "".join(f'<div class="sl" style="background-image:url(/img/{n}.jpg);animation-delay:{i * 6}s"></div>' for i, n in enumerate(SLIDES))
+        + '<canvas id="net"></canvas><div class="au"></div><div class="sp"></div><div class="cw"><p class="ey">PharmaCRO &middot; Pharmaceutical analytical testing network</p>'
+        '<h1>Every batch. Every standard. <span class="shim">Every market.</span></h1>'
+        '<p class="lede">One accredited network of pharmaceutical testing labs. Faster results, inspection-ready data, one portal.</p>'
+        '<div class="hb"><a class="btn" href="/request-quote.html">Get a quote in 90 seconds</a> <a class="btn o" href="/tools/test-finder.html">Find the right test</a></div>'
+        '<p class="tag">Small molecules. Biologics. mRNA. Cell and gene therapy. One standard.</p></div><span class="scrollcue"></span></header>')
+
+MOS = ('<div class="mos m5">' + "".join(f'<a href="{u}" class="reveal" style="--i:{i}"><img src="/img/{im}.jpg" alt="{ALT.get(im, "")}" loading="lazy"><span><b>{t}</b>{d}</span></a>' for i, (im, t, d, u) in enumerate([
+    ("inst-hplc", "Small molecule QC", "Assay, impurities, dissolution and release", "/services/index.html"),
+    ("vax-vials", "mRNA and vaccines", "Capping, integrity, LNP and potency", "/industries/index.html"),
+    ("bio-cells-green", "Cell and gene therapy", "Vector titre, identity and release", "/industries/index.html"),
+    ("micro-petri-1", "Microbiology", "Sterility, endotoxin, environmental monitoring", "/services/index.html"),
+    ("pharma-lab", "The lab network", "Ten planned sites, one standard", "/labs/index.html")])) + '</div>')
+KPIS = ('<div class="kpis">' + "".join(f'<div class="kpi reveal" style="--i:{i}"><b>{a}</b><span>{b}</span></div>' for i, (a, b) in enumerate([
+    ("10", "planned lab sites across four regions"), ("46", "published methods in the public library"), ("4.2 days", "demo average turnaround (placeholder)"), ("48 h", "fastest priority release, once live")])) + '</div>')
 
 NETWORK = (SH("One network, every test", "A single standard across every lab.",
               "Method transfer between our labs takes days, not months, because every lab runs the same SOPs, the same instruments and the same LIMS.", center=True)
@@ -96,7 +102,7 @@ JOIN = (SH("Join the network", "Two ways to build this with us.")
         + SPLITPANELS(("biz-highfive", "For lab owners", "Own a GMP lab? Let us talk.", "We partner with founder-led labs. You keep your standards. We bring scale, systems and a bigger future for your team. Confidential, always.", "/partner-with-us.html", "Start a confidential conversation", "warm"),
                       ("lab-smile", "Careers", "Build your career in pharma science.", "Training budgets, instrument exposure, a clear ladder from analyst to site head, and pay you can see before you apply.", "/careers/index.html", "See open roles", "cool")))
 
-body = (HERO + '<div class="w">' + TRUST()
+body = (HERO + '<div class="w">' + MOS + KPIS + TRUST()
         + SH("Who are you?", "Tell us what you are making.", "Choose one and we will show the tests that matter for it. We remember your choice as you browse.")
         + ROUTER() + NETWORK + SIG() + MAPSEC + HOW + NUMS + TAT + PORT + SCIENCE + CASESEC + QUALITY + INSIGHTS + JOIN + '</div>')
 
